@@ -1,0 +1,22 @@
+{
+    "name": "affinity4/lexer",
+    "description": "Generic lexer and tokenizer written in PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Watts",
+            "email": "luke@affinity4.ie"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Affinity4\\Lexer\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/yaml": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
